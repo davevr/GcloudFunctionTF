@@ -1,12 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "whattheflockserver",
-  "private_key_id": "de8a8db8d2f0a1453aa172fb5e3c5d673b607410",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEVF1HfuH5/lvH\nX+7/1OryQa5HKbB9SZEyQ5c40cSVb2lfAIDqrnB04EYTVb1+qYtkEQiSjpTqftwV\nVi8Yl0I2Npw7DjIpHICdYZuuvpBzmjUMR6K8AJsT6a1qInVWJFA7Jq9mFRZ/wAvZ\nF2LEkxcwSOTMr+2a3x/jDiKN0b7L7MFQ+RvO83hnAmggKPcZpGcEcYl6+aoCLtcw\ngz9m+0iMNuESR/KnMTEAeGbgzyO2lPNZO7WiQuNplDVe6bVdKJps0J97+HZjjhQR\nCgy2IQPhRrjyML37S3sndrQrJdSjdkL+mf56eqjV0IUzWiRVpM8wLgQggo+j3+Gk\nDu28Rz0xAgMBAAECggEALgTva3WOnxRz62cthKqiGsByCyy2uZtfrSZCQVeMKpH3\no0ThMwFKC19RlbEkjpbLvVwvw/inZ9LuIBM4TV2RL9d7pe0VLWVIsXtCbIKvJeXI\n1vTIrKRAtXlyBF2I3vT6mG7gML+zKyU3Mb8FT/oBdrgzZ1Y6jfGMjiKPT2pRfId8\ni9Bb/NW+yuKCYgSUWiiYUteAE2P62sxbCbKhoOA1kTGKcKU3EKsslD9IOMyCdrR+\nAmyxSi1nsr2mDcsWzj6wE2VL38p5KxgFBcJ52capqGPGX7gSNvHb69I3Rq9/j5fI\nvAcz+x7nduQoIUWq/h67zb64Vw1jbcwVixpVCEV0ZQKBgQDhU/mdiU50aK0wdGUY\nDWLn+ZOHJb8bPMzhL6nGcxKpBuI6XKHoOQ0zUKSJEZQVSVeXOjd8Q1AYiouwp77r\nI3aOpzORVkIwBhB66a4eHMpXWM6W2bfREIbvujuza3WZ5UAYfH90NpyT03R2elwB\ncFUIQIthLpRVF9jCpkvl8P3eZQKBgQDfDeB4jpUYLkF3Gt2XYqneNSlCn418X2Yr\n6bdKsPXvYDdoDzcIgNN96TkvQMbBw+Se3Fu01pGsGfmWBujruW1IJJAqK/0keNv/\ngQyFxw3REum3QgOufIVP+e3H613I5WjiTHo8xL8Ue8f/wCH9hSxIS/Qb8HB/XG3J\neh/vLKFA3QKBgQDP85Mj+6tHLa/gTxtZhkkoc6HekUx807D1hep2do7bJbo1SHY3\n/icbm6otweZbetN2gsjgSrMp4vsmbrl5AsKQxuiFkgkFjyM4fF8v9TwcPp5yg73s\nGQefSM1+OYdQH033CzcJRrlciEMscKJmxYgEVKUNbFKC8b4fbiAPt0hkLQKBgGG8\nBttMPm/19KFnmCi5Bo1i5c1Xc/tHIdGj+rgzic91bVGfORH0wLau9muKCozkdMxW\n6af3TKUITKA8Ltr6yLOPscuIssbEXkE6Hm6PpbIyg03VEx/lV9SPQm0S6GkafDaM\nJBN0cfVbt2qMmVgofhq/jRqg4+oqacCaTlvSRmXRAoGAZADUP3WqlrkPb+eBkSWY\nXPwKfkqxi02U6frc/1s8gMSl0R07FPY+G0kCI8rvcVl56By49P+LKzuWsRqGG8NU\ntap2cEk4DgI9J9OyU2qXJshpJx+GbM5QPofzFJkJQfu865BYCAb4uX7PLmO4q6gK\n881V/9GlLV2yCcwtuWwDZ/s=\n-----END PRIVATE KEY-----\n",
-  "client_email": "terraformservicer@whattheflockserver.iam.gserviceaccount.com",
-  "client_id": "104753917259144884174",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraformservicer%40whattheflockserver.iam.gserviceaccount.com"
-}
+
