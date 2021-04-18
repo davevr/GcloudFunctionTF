@@ -5,11 +5,9 @@ terraform {
       version = "3.5.0"
     }
   }
-  terraform {
   backend "gcs" {
     bucket = "wtfserver-cloud-function-test-bucket"
   }
-}
 }
 
 provider "google" {
@@ -22,7 +20,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "bucket" {
-  name = "wtfserver-cloud-function-test-bucket" # This bucket name must be unique
+  name = "wtfserver-cloud-function-test-bucket-02" # This bucket name must be unique
 }
 
 data "archive_file" "src" {
@@ -37,8 +35,8 @@ resource "google_storage_bucket_object" "archive" {
   source = "${path.root}/../generated/src.zip"
 }
 
-resource "google_cloudfunctions_function" "wtffunctiontest" {
-  name        = "tffunctiontest"
+resource "google_cloudfunctions_function" "wtffunctiontest02" {
+  name        = "tffunctiontest02"
   description = "My function"
   runtime     = "nodejs12"
   source_archive_bucket = google_storage_bucket.bucket.name
@@ -57,9 +55,9 @@ resource "google_cloudfunctions_function" "wtffunctiontest" {
 }
 
 resource "google_cloudfunctions_function_iam_member" "invoker" {
-  project        = google_cloudfunctions_function.wtffunctiontest.project
-  region         = google_cloudfunctions_function.wtffunctiontest.region
-  cloud_function = google_cloudfunctions_function.wtffunctiontest.name
+  project        = google_cloudfunctions_function.wtffunctiontest02.project
+  region         = google_cloudfunctions_function.wtffunctiontest02.region
+  cloud_function = google_cloudfunctions_function.wtffunctiontest02.name
 
   role   = "roles/cloudfunctions.invoker"
   member = "allUsers"
