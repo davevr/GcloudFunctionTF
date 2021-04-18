@@ -5,6 +5,11 @@ terraform {
       version = "3.5.0"
     }
   }
+  terraform {
+  backend "gcs" {
+    bucket = "wtfserver-cloud-function-test-bucket"
+  }
+}
 }
 
 provider "google" {
