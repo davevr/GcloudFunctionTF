@@ -1,0 +1,27 @@
+{
+  "name": "WTFserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davevr/Whattheflockserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davevr/Whattheflockserver/issues"
+  },
+  "homepage": "https://github.com/davevr/Whattheflockserver#readme",
+  "dependencies": {
+    "apollo-server-cloud-functions": "^2.23.0",
+    "graphql": "^15.5.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "tedious": "^11.0.3"
+  }
+}
